@@ -10,7 +10,7 @@
 body {
     background-color: #e0bdb9;
     color: #f0eae1;
-    /* font-family: "Roboto Condensed", sans serif; */
+    font-family: "Roboto Condensed", sans serif;
 }
 
 /* Logo Styling */
@@ -19,16 +19,18 @@ body {
     font-size: 300%;
     text-align: center;
     width: 90%;
-    height: 300px;
+    height: 250px;
     margin: 0 auto;
     background-color: #4d4959;
     border: 1px solid black;
+    padding-top: 80px
 }
 
 #logo h2 {
     font-size: 90%;
     font-family: "Nunito", sans-serif;
     font-style: italic;
+    font-weight: 300;
 }
 
 /* Nav Bar Styling */
@@ -37,6 +39,7 @@ body {
     background-color: #4d4959;
     text-align: center;
     width: 90%;
+    height: 50px;
     margin: 0 auto;
     position: relative;
 }
@@ -45,9 +48,22 @@ body {
     list-style-type: none;
 }
 
+#nav-bar li {
+    display: inline-block;
+    margin: 15px;
+}
+
 #nav-bar a {
     text-decoration: none;
     color: inherit;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid #f0eae1;
+}
+
+.active {
+    border-bottom: 1px solid #f0eae1;
 }
 
 
