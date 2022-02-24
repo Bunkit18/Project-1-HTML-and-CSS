@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #e0bdb9;
+    background-color: white;
     color: #f0eae1;
     font-family: "Roboto Condensed", sans serif;
 }
@@ -21,8 +21,8 @@ body {
     width: 90%;
     height: 250px;
     margin: 0 auto;
-    background-color: #4d4959;
-    border: 1px solid black;
+    background-color: #e48454;
+    border: 1px solid #4d4959;
     padding-top: 80px
 }
 
@@ -40,8 +40,9 @@ body {
     text-align: center;
     width: 90%;
     height: 50px;
-    margin: 0 auto;
+    margin: 1px auto;
     position: relative;
+    border: 1px solid black;
 }
 
 #nav-bar ul {
@@ -50,7 +51,8 @@ body {
 
 #nav-bar li {
     display: inline-block;
-    margin: 15px;
+    margin: 15px 4.5%;
+    
 }
 
 #nav-bar a {
@@ -65,6 +67,21 @@ body {
 .active {
     border-bottom: 1px solid #f0eae1;
 }
+
+/* Home hero image */
+
+#hero-image {
+    height: 700px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #e48454;
+    background-image: url('../images/cockatiel-gc9f46405d_1280.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
 
 
 /* colors::
