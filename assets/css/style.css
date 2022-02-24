@@ -16,14 +16,13 @@ body {
 /* Logo Styling */
 
 #logo {
-    font-size: 300%;
+    font-size: 350%;
     text-align: center;
     width: 90%;
     height: 250px;
     margin: 0 auto;
     background-color: #e48454;
-    border: 1px solid #4d4959;
-    padding-top: 80px
+    padding-top: 50px
 }
 
 #logo h2 {
@@ -42,7 +41,6 @@ body {
     height: 50px;
     margin: 1px auto;
     position: relative;
-    border: 1px solid black;
 }
 
 #nav-bar ul {
@@ -82,7 +80,12 @@ body {
     overflow: hidden;
 }
 
-
+footer {
+    background-color: #4d4959;
+    width: 90%;
+    height: 130px;
+    margin: 0 auto;
+}
 
 /* colors::
 
