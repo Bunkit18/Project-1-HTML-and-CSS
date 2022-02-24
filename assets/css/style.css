@@ -1,5 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&family=Roboto+Condensed&display=swap');
 
-body h1 h2 h3{
-    font-family: "Roboto Condensed", sans serif;
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+
 }
+
+body {
+    background-color: #e0bdb9;
+    color: #f0eae1;
+    /* font-family: "Roboto Condensed", sans serif; */
+}
+
+/* Logo Styling */
+
+#logo {
+    font-size: 300%;
+    text-align: center;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #4d4959;
+    border: 1px solid black;
+}
+
+#logo h2 {
+    font-size: 90%;
+    font-family: "Nunito", sans-serif;
+    font-style: italic;
+}
+
+/* Nav Bar Styling */
+
+#nav-bar {
+    background-color: #4d4959;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#nav-bar ul {
+    list-style-type: none;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* colors::
+
+#f0eae1 - creamy white
+#f3edd2 - baby yellow
+#edda85 - yellow
+#e48454 - orange
+#4d4959 - grey
+#e0bdb9 - baby pink */
