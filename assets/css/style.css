@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     border: none;
-
 }
 
 body {
@@ -13,6 +12,10 @@ body {
     font-family: "Roboto Condensed", sans serif;
     max-width: 90%;
     margin: 0 auto;
+}
+
+body p {
+    font-family: "Nunito", sans-serif;
 }
 
 /* Logo Styling */
@@ -26,9 +29,7 @@ body {
     z-index: 10;
     font-size: 350%;
     text-align: center;
-    width: 100%;
     height: 180px;
-    margin: 0 auto;
     background: linear-gradient(#e48454, #cb5920);
     padding-top: 20px;
     line-height: 1;
@@ -55,14 +56,10 @@ body {
 #nav-bar {
     background: linear-gradient(#4d4959, #35323d 45% 60%, #4d4959);
     text-align: center;
-    width: 100%;
-    height: 50px;
-    margin: 0 auto;
-    position: relative;
+    font-size: 110%;
 }
 
 #nav-bar ul {
-    list-style-type: none;
     border-top: 1px solid black;
     border-bottom: 1px solid black;  
 }
@@ -87,7 +84,7 @@ body {
 
 /* Home hero image */
 
-#hero-image {
+/* original image code NOT NEEDED #hero-image {
     height: 700px;
     width: 100%;
     margin: 0 auto;
@@ -98,6 +95,13 @@ body {
     background-size: cover;
     position: relative;
     overflow: hidden;
+} */
+
+#hero-image > img {
+    width: 100%;
+    height: 45rem;
+    object-fit: cover;
+    vertical-align: middle;
 }
 
 /* Cover text */
@@ -106,20 +110,28 @@ body {
     font-size: 130%;
     letter-spacing: 2px;
     text-align: right;
-    font-weight: 550;
     width: 370px;
-    height: 240px;
-    padding: 10px 5px 10px 0;
+    padding: 10px 5px 5px 0;
     background-color: rgba(228, 130, 84, 0.5);
-    color: #f0eae1;
-    top: 85%;
-    right: 8%;
+    color: inherit;
+    top: 90%;
+    right: 8.5%;
     position: absolute;
 }
 
 #image-text p {
+    font-size: 90%;
+    font-weight: 500;
     margin-top: 5px;
-    line-height: 150%;
+}
+
+/* variation.html styling */
+
+#intro-bar img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    filter: contrast(1.2);
 }
 
 /* Footer styling */
@@ -127,9 +139,9 @@ body {
 footer {
     background: linear-gradient(#4d4959, #35323d);
     width: 100%;
-    height: 130px;
+    height: 130px; 
     margin: 0 auto;
-    border: 1px solid black;
+    border-top: 1px solid black;
 }
 
 footer h3 {
@@ -139,7 +151,7 @@ footer h3 {
     color: #e48454;
 }
 
-/* colors::
+/* colors:
 
 #f0eae1 - creamy white
 #f3edd2 - baby yellow
