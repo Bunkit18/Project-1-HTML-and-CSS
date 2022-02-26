@@ -15,7 +15,7 @@ body {
 
 /* Logo Styling */
 
-#logo-container {
+#logo-inner {
     position: relative;
 }
 
@@ -30,14 +30,13 @@ body {
     background: linear-gradient(#e48454, #cb5920);
     padding-top: 20px;
     line-height: 1;
-    /* padding-bottom: 20px; */
 }
 
 #logo #underlay {
     color: #4d4959;
     font-size: 300%;
     position: absolute;
-    left: 53.3%;
+    left: 53%;
     top: 0;
     z-index: -1;
 }
@@ -62,11 +61,13 @@ body {
 
 #nav-bar ul {
     list-style-type: none;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;  
 }
 
 #nav-bar li {
     display: inline-block;
-    margin: 15px 4%;    
+    margin: 15px 3%;  
 }
 
 #nav-bar a {
@@ -96,11 +97,42 @@ body {
     overflow: hidden;
 }
 
+/* Cover text */
+
+#image-text {
+    font-size: 130%;
+    letter-spacing: 2px;
+    text-align: right;
+    font-weight: 550;
+    width: 370px;
+    height: 240px;
+    padding: 10px 5px 10px 0;
+    background-color: rgba(228, 130, 84, 0.5);
+    color: #f0eae1;
+    top: 85%;
+    right: 8%;
+    position: absolute;
+}
+
+#image-text p {
+    margin-top: 5px;
+    line-height: 150%;
+}
+
+/* Footer styling */
+
 footer {
     background: linear-gradient(#4d4959, #35323d);
     width: 90%;
     height: 130px;
     margin: 0 auto;
+    border: 1px solid black;
+}
+
+footer h3 {
+    font-size: medium;
+    text-align: right;
+    padding: 105px 10px 5px;
 }
 
 /* colors::
