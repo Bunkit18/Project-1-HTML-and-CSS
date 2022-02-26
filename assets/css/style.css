@@ -11,6 +11,8 @@ body {
     background-color: #2f2c38;
     color: #f0eae1;
     font-family: "Roboto Condensed", sans serif;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 /* Logo Styling */
@@ -24,7 +26,7 @@ body {
     z-index: 10;
     font-size: 350%;
     text-align: center;
-    width: 90%;
+    width: 100%;
     height: 180px;
     margin: 0 auto;
     background: linear-gradient(#e48454, #cb5920);
@@ -53,7 +55,7 @@ body {
 #nav-bar {
     background: linear-gradient(#4d4959, #35323d 45% 60%, #4d4959);
     text-align: center;
-    width: 90%;
+    width: 100%;
     height: 50px;
     margin: 0 auto;
     position: relative;
@@ -87,13 +89,14 @@ body {
 
 #hero-image {
     height: 700px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     background-color: #e48454;
     background-image: url('../images/cockatiel-gc9f46405d_1280.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     overflow: hidden;
 }
 
@@ -123,7 +126,7 @@ body {
 
 footer {
     background: linear-gradient(#4d4959, #35323d);
-    width: 90%;
+    width: 100%;
     height: 130px;
     margin: 0 auto;
     border: 1px solid black;
@@ -133,6 +136,7 @@ footer h3 {
     font-size: medium;
     text-align: right;
     padding: 105px 10px 5px;
+    color: #e48454;
 }
 
 /* colors::
