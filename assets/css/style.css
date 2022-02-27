@@ -147,7 +147,7 @@ footer h3 {
 /* variation.html styling */
 
 #intro-bar img {
-    height: 250px;
+    height: 260px;
     width: 100%;
     object-fit: cover;
     vertical-align: middle;
@@ -157,7 +157,7 @@ footer h3 {
 #intro-outer {
     background-color: rgba(77, 73, 89, .7);
     width: 90%;
-    height: 250px;
+    height: 260px;
     top: 33.4%;
     left: 5%;
     position: absolute;
@@ -205,6 +205,37 @@ footer h3 {
 #variations a:hover {
     color: #cb5920;
     border-bottom: 1px solid #cb5920;
+}
+
+/* Grey section */
+
+#grey-container {
+    background-color: #35323d;
+    margin: 1% 0;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    border: 4px solid #e48454;
+    height: 19rem;
+}
+
+#grey img {
+    height: 15rem;
+    border: 3px solid #2f2c38;
+    float: right;
+    margin-left: 1.5rem;
+}
+
+#grey h3 {
+    float: left;
+    font-size: 150%;
+    border-bottom: 1px solid #f0eae1;
+    margin-bottom: 1rem;
+}
+
+#grey p {
+    clear: left;
+    text-align: justify;
+    font-size: 1.25rem;;
 }
 
 /* colors:
