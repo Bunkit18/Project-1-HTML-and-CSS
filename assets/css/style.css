@@ -207,9 +207,9 @@ footer h3 {
     border-bottom: 1px solid #cb5920;
 }
 
-/* Grey section */
+/* variation container */
 
-#grey-container {
+.container {
     background-color: #35323d;
     margin: 1% 0;
     padding: 1.5rem;
@@ -218,24 +218,62 @@ footer h3 {
     height: 19rem;
 }
 
-#grey img {
-    height: 15rem;
-    border: 3px solid #2f2c38;
-    float: right;
-    margin-left: 1.5rem;
+/* variation float left */
+
+.float-left h3{
+    font-size: 150%;
+    border-bottom: 1px solid #f0eae1;
+    margin-bottom: 1rem;
+    display: inline-block;
 }
 
-#grey h3 {
+.float-left p {
+    text-align: justify;
+    font-size: 1.25rem;
+}
+
+/* variation float right */
+
+.float-right h3 {
     float: left;
     font-size: 150%;
     border-bottom: 1px solid #f0eae1;
     margin-bottom: 1rem;
 }
 
-#grey p {
+.float-right p {
     clear: left;
     text-align: justify;
     font-size: 1.25rem;;
+}
+
+/* variation images */
+
+.var-img-left {
+    height: 15rem;
+    border: 3px solid #2f2c38;
+    float: left;
+    margin-right: 1.5rem;
+}
+
+.var-img-right {
+    height: 15rem;
+    border: 3px solid #2f2c38;
+    float: right;
+    margin-left: 1.5rem;
+}
+
+/* top-return Return to top of the page */
+
+#top-return {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+#top-return a {
+    font-size: 280%;
+    color: rgba(240, 234, 225, .7);
 }
 
 /* colors:
