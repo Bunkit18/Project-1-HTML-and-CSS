@@ -38,8 +38,62 @@
     </header>
     
     <footer>
-        Update links after other page completion
-        <h3>Copyright 2022 Jessica Skidmore</h3>
+        <div id="footer-links">
+            <ul>
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter-square"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram-square"></i></a></li>
+                <li><a href="https://www.reddit.com" target="_blank"><i class="fa-brands fa-reddit-square"></i></a></li>
+            </ul>
+        </div>
+        <div id="bottom-footer">
+            <h4>For regular tips, tricks and advice, click <a href="#popup1">here</a> to subscibe to our newsletter!</h4>
+            <h3>Copyright 2022 Jessica Skidmore</h3>
+        </div> 
+        
+        <div id="popup1" class="overlay">
+            <div class="popup">
+                <h2>Join the flock! <i class="fa-solid fa-feather-pointed"></i></h2><br>
+                <a class="close" href="#">&times;</a>
+                <div class="content">
+                    <form id="mailing" action="#" method="post">
+                        <fieldset id="details">
+                            <legend>Your details</legend><br>
+                            <label for="name">Name: </label>
+                            <input type="text" name="name" width="1.5rem"><br><br>
+
+                            <label for="email">Email: </label>
+                            <input type="email" name="email" width="1.5rem"><br><br>
+                        </fieldset>
+                        <fieldset id="preferences">
+                            <legend>Your Preferences</legend><br>
+                            <h4>Do you own a cockatiel?</h4>
+                            <ul>
+                                <input type="radio" name="own" value="yes" width="1.5rem">
+                                <label for="own">Yes</label>
+                                <input type="radio" name="own" value="no" width="1.5rem">
+                                <label for="own">No</label>
+                                <input type="radio" name="own" value="plan-to" width="1.5rem">
+                                <label for="own">I plan to!</label>
+                            </ul><br>
+
+                            <h4>Which information would you like us to send?</h4>
+                            <ul>
+                                <input type="checkbox" name="own" value="behaviour" width="1.5rem">
+                                <label for="own" required>Behaviour and Training tricks </label>
+                                <input type="checkbox" name="own" value="diet" width="1.5rem">
+                                <label for="own">Diet tips and recipes </label>
+                                <input type="checkbox" name="own" value="health" width="1.5rem">
+                                <label for="own">Health guidance </label>
+                            </ul><br>                            
+                        </fieldset>
+
+                        <input id="submit" type="submit" value="Submit!">                        
+                    </form>
+                </div>
+            </div>
+        </div> 
+
     </footer>
     
     <!-- Font Awesome Script-->
