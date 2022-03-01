@@ -434,6 +434,23 @@ footer #bottom-footer h3 {
     border-bottom: 1px solid #cb5920;
 }
 
+/* Pellets */
+
+#pellets {
+    margin: 1rem;
+    font-size: 110%;
+}
+
+/* Pellets intro text */
+
+#pellets-intro-text {
+    text-align: justify;
+}
+
+#pellets-intro-text h3 {
+    text-decoration: underline;
+}
+
 /* top-return Return to top of the page */
 
 #top-return {
