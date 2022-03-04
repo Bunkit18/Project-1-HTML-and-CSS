@@ -438,7 +438,6 @@ footer #bottom-footer h3 {
 
 #pellets {
     margin: 1rem;
-    font-size: 110%;
 }
 
 /* Pellets intro text */
@@ -447,8 +446,91 @@ footer #bottom-footer h3 {
     text-align: justify;
 }
 
-#pellets-intro-text h3 {
+/* Pellet images */
+
+figure {
+    display: inline-block;
+}
+
+figcaption {
+    padding-left: 2rem;
+    text-align: left;
+    font-size: 90%;
+    color: rgba(240,234,225,0.5);
+}
+
+.pellets-pics {
+    text-align: center;
+}
+
+.img-size {
+    height: 17rem;
+    padding-left: 2rem;
+}
+
+.contrast {
+    filter: contrast(1.3);
+}
+
+/* Fruit and Veg Styling */
+
+#fandv a:hover {
+    font-size: 130%;
+}
+
+#diet-table table {
+    border: 1px solid #f0eae1;
+    width: 90%;
+    margin: 0 auto;
+    /* Contemplated border-collapse but prefered how it looked without */
+}
+
+#diet-table th, td {
+    border: 1px solid #f0eae1;
+    padding: .8rem;
+}
+
+#diet-table td {
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Nut section styling */
+
+#nuts ul {
+    padding-left: 3rem;
+}
+
+#nuts li {
+    list-style-type: none;
+    padding-bottom: .5rem;
+}
+
+#nuts li::before {
+    content: "\220E";
+    color:#cb5920;
+    display: inline-block;
+    width: 1rem;
+    font-size: 80%;
+}
+
+/* Base class for clickable links */
+
+.link {
+    font-weight: 500;
+    text-decoration-thickness: 1px;
+    color: inherit;
+}
+
+/* Base class for h2 headings and emphasised underlined elements */
+
+.underlined {
     text-decoration: underline;
+}
+
+/* Base font-size class for sections (110%) */
+
+.f-size {
+    font-size: 110%;
 }
 
 /* top-return Return to top of the page */
