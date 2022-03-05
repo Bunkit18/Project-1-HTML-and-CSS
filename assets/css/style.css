@@ -459,7 +459,7 @@ figcaption {
     color: rgba(240,234,225,0.5);
 }
 
-.pellets-pics {
+.diet-pics {
     text-align: center;
 }
 
@@ -512,6 +512,8 @@ figcaption {
     width: 1rem;
     font-size: 80%;
 }
+
+/* Seed Styling */
 
 /* Base class for clickable links */
 
