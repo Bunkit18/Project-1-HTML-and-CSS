@@ -459,7 +459,7 @@ figcaption {
     color: rgba(240,234,225,0.5);
 }
 
-.diet-pics {
+.align-pics {
     text-align: center;
 }
 
@@ -549,6 +549,17 @@ figcaption {
     font-weight: 500;
 }
 
+#behaviour-text {
+    text-align: justify;
+}
+
+#crest {
+    margin: 1rem;
+}
+
+#up figcaption {
+    text-align: center;
+}
 
 /* Base class for clickable links */
 
