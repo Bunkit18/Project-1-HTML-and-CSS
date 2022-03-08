@@ -494,6 +494,12 @@ figcaption {
     font-family: 'Nunito', sans-serif;
 }
 
+caption {
+    padding-bottom: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
 /* Nut section styling */
 
 #nuts ul {
@@ -569,6 +575,18 @@ figcaption {
 
 #calls {
     margin: 1rem;
+}
+
+#gender-call {
+    text-align: center;
+}
+
+video {
+    padding-left: 2rem;
+}
+
+#gender-call figcaption {
+    text-align: center;
 }
 
 /* Base class for clickable links */
