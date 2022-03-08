@@ -561,6 +561,16 @@ figcaption {
     text-align: center;
 }
 
+#half-down figcaption {
+    text-align: center;
+}
+
+/* call section */
+
+#calls {
+    margin: 1rem;
+}
+
 /* Base class for clickable links */
 
 .link {
