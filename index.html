@@ -69,16 +69,16 @@
                         <fieldset id="details">
                             <legend>Your details</legend><br>
                             <label for="name">Name: </label>
-                            <input type="text" name="name" width="1.5rem"><br><br>
+                            <input type="text" name="name" width="1.5rem" required><br><br>
 
                             <label for="email">Email: </label>
-                            <input type="email" name="email" width="1.5rem"><br><br>
+                            <input type="email" name="email" width="1.5rem" required><br><br>
                         </fieldset>
                         <fieldset id="preferences">
                             <legend>Your Preferences</legend><br>
                             <h4>Do you own a cockatiel?</h4>
                             <ul>
-                                <input type="radio" name="own" value="yes" width="1.5rem">
+                                <input type="radio" name="own" value="yes" width="1.5rem" required>
                                 <label for="own">Yes</label>
                                 <input type="radio" name="own" value="no" width="1.5rem">
                                 <label for="own">No</label>
@@ -88,7 +88,7 @@
 
                             <h4>Which information would you like us to send?</h4>
                             <ul>
-                                <input type="checkbox" name="own" value="behaviour" width="1.5rem">
+                                <input type="checkbox" name="own" value="behaviour" width="1.5rem" required>
                                 <label for="own" required>Behaviour and Training tricks </label>
                                 <input type="checkbox" name="own" value="diet" width="1.5rem">
                                 <label for="own">Diet tips and recipes </label>

@@ -93,6 +93,7 @@ footer {
     margin: 0 auto;
     border-top: 1px solid black;
     position: relative;
+    z-index: 10;
 }
 
 footer #bottom-footer h3 {
@@ -577,15 +578,17 @@ caption {
     margin: 1rem;
 }
 
-#gender-call {
-    text-align: center;
-}
-
 video {
     padding-left: 2rem;
 }
 
 #gender-call figcaption {
+    text-align: center;
+}
+
+/* Quirk section */
+
+.video {
     text-align: center;
 }
 
@@ -609,6 +612,13 @@ video {
     font-size: 110%;
 }
 
+/* Visited anchor tag stlying */
+
+a:visited {
+    color:#cb5920;
+    text-decoration-color:#cb5920;
+}
+
 /* top-return Return to top of the page */
 
 #top-return {
@@ -620,10 +630,34 @@ video {
 #top-return a {
     font-size: 280%;
     color: rgba(228,132,84, .7);
+    position: absolute;
+    bottom: 1.5rem;
+    right: 1.5rem;
+    z-index: 15;
 }
 
+/* contact styling */
 
+#form-outer {
+    background-color: #4d4959;
+    display: inline-block;
+    border: 5px double #cb5920;
+    margin: 2rem;
+    width: 50%;
+}
 
+#form-inner {
+    padding: 2rem 0 2rem 2rem;
+}
+
+#form h2 {
+    font-size: 3rem;
+}
+
+.form-p {
+    /* display: inline-block; */
+    max-width: 90%;
+}
 
 /* vet location iframe */
 
