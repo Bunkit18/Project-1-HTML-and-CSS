@@ -84,6 +84,62 @@ body p {
     border-bottom: 1px solid #f0eae1;
 }
 
+/* trial search bar */
+
+.search {
+    position: relative;
+  }
+
+  .input {
+    height: 2rem;
+    width: .02rem;
+    border-style: none;
+    padding: .5rem;
+    font-size: 18px;
+    letter-spacing: 1px;
+    outline: none;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+    background-color: #cb5920;
+    padding-right: 40px;
+    color:#f0eae1;
+  }
+
+  .input::placeholder {
+    color:#f0eae1;
+    font-weight: 100;
+  }
+
+  .btn-search {
+    width: 50px;
+    height: 50px;
+    border-style: none;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    color: #f0eae1;
+    background-color:transparent;
+    pointer-events: painted;  
+  }
+
+  .btn-search:focus ~ .input {
+    width: 7rem;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid #f0eae1;
+  }
+
+  .input:focus {
+    width: 7rem;
+    border-radius: 0px;
+    background-color: transparent;
+    border-bottom:1px solid rgba(255,255,255,.5);
+    transition: all 500ms cubic-bezier(0, 0.110, 0.35, 2);
+  }
+
 /* Footer styling */
 
 footer {
@@ -204,6 +260,7 @@ footer #bottom-footer h3 {
   .submit {
       padding: .2rem;
       font-size: 100%;
+      cursor: pointer;
   }
 
   .submit:hover {
@@ -647,15 +704,18 @@ a:visited {
     max-width: 90%;
 }
 
+textarea {
+    vertical-align: top;
+}
+
 /* Contact pic */
 
 #pic {
-    display: inline-block;
     float: right;
 }
 
 #pic img {
-    width: 36rem;
+    width: 37rem;
     height: 48.4rem;
     padding: 1rem;
     border: 5px double #cb5920;
