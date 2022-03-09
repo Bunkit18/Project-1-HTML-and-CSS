@@ -94,6 +94,7 @@ footer {
     border-top: 1px solid black;
     position: relative;
     z-index: 10;
+    clear: both;
 }
 
 footer #bottom-footer h3 {
@@ -200,28 +201,15 @@ footer #bottom-footer h3 {
     border: 1px solid #2f2c38;
   }
 
-  #submit {
+  .submit {
       padding: .2rem;
       font-size: 100%;
   }
 
-  #submit:hover {
-      filter:invert();
+  .submit:hover {
+      background-color:#2f2c38;
+      color: #cb5920;
   }
-/* Home hero image */
-
-/* original image code NOT NEEDED #hero-image {
-    height: 700px;
-    width: 100%;
-    margin: 0 auto;
-    background-color: #e48454;
-    background-image: url('../images/cockatiel-gc9f46405d_1280.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-} */
 
 #hero-image > img {
     width: 100%;
@@ -642,7 +630,8 @@ a:visited {
     background-color: #4d4959;
     display: inline-block;
     border: 5px double #cb5920;
-    margin: 2rem;
+    margin: 1rem;
+    padding-left: 1rem;
     width: 50%;
 }
 
@@ -655,8 +644,24 @@ a:visited {
 }
 
 .form-p {
-    /* display: inline-block; */
     max-width: 90%;
+}
+
+/* Contact pic */
+
+#pic {
+    display: inline-block;
+    float: right;
+}
+
+#pic img {
+    width: 36rem;
+    height: 48.4rem;
+    padding: 1rem;
+    border: 5px double #cb5920;
+    box-sizing: border-box;
+    margin: 1rem;
+        
 }
 
 /* vet location iframe */
