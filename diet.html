@@ -16,7 +16,7 @@
         <div id="logo">
             <div id="logo-inner">
                 <h1>TielBible</h1>
-                <h1 id="under-leaf"><i class="fa-solid fa-feather-pointed"></i></h1>
+                <p id="under-leaf"><i class="fa-solid fa-feather-pointed"></i></p>
             </div>
             <h2>Your go-to guide for all things Cockatiel.</h2>
         </div>
@@ -198,11 +198,6 @@
     </section>
     
     <footer>
-
-        <div id="top-return">
-            <a href="#logo"><i class="fa-solid fa-circle-arrow-up"></i></a>
-        </div>
-
         <div id="footer-links">
             <ul>
                 <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook-square"></i></a></li>
@@ -225,32 +220,35 @@
                         <fieldset id="details">
                             <legend>Your details</legend><br>
                             <label for="name">Name: </label>
-                            <input type="text" name="name" width="1.5rem"><br><br>
+                            <input type="text" id="name" name="name" required><br><br>
 
                             <label for="email">Email: </label>
-                            <input type="email" name="email" width="1.5rem"><br><br>
+                            <input type="email" id="email" name="email" required><br><br>
                         </fieldset>
                         <fieldset id="preferences">
                             <legend>Your Preferences</legend><br>
                             <h4>Do you own a cockatiel?</h4>
-                            <ul>
-                                <input type="radio" name="own" value="yes" width="1.5rem">
-                                <label for="own">Yes</label>
-                                <input type="radio" name="own" value="no" width="1.5rem">
-                                <label for="own">No</label>
-                                <input type="radio" name="own" value="plan-to" width="1.5rem">
-                                <label for="own">I plan to!</label>
-                            </ul><br>
+                            
+                            <input type="radio" name="own" id="own" value="yes" required>
+                            <label for="own">Yes</label>
+
+                            <input type="radio" name="own" value="no">
+                            <label for="own">No</label>
+
+                            <input type="radio" name="own" value="plan-to">
+                            <label for="own">I plan to!</label><br>                            
 
                             <h4>Which information would you like us to send?</h4>
-                            <ul>
-                                <input type="checkbox" name="own" value="behaviour" width="1.5rem">
-                                <label for="own" required>Behaviour and Training tricks </label>
-                                <input type="checkbox" name="own" value="diet" width="1.5rem">
-                                <label for="own">Diet tips and recipes </label>
-                                <input type="checkbox" name="own" value="health" width="1.5rem">
-                                <label for="own">Health guidance </label>
-                            </ul><br>                            
+                            
+                            <input type="checkbox" name="info" id="info" value="behaviour" required>
+                            <label for="info">Behaviour and Training tricks </label>
+
+                            <input type="checkbox" name="info" id="info1" value="diet">
+                            <label for="info">Diet tips and recipes </label>
+
+                            <input type="checkbox" name="info" id="info2" value="health">
+                            <label for="info">Health guidance </label><br>
+                                                       
                         </fieldset>
 
                         <input id="submit" type="submit" value="Submit!">                        
@@ -258,6 +256,7 @@
                 </div>
             </div>
         </div> 
+
     </footer>
     
     <!-- Font Awesome Script-->
