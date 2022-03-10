@@ -153,20 +153,25 @@ footer {
     clear: both;
 }
 
-footer #bottom-footer h3 {
+#bottom-footer h3 {
     font-size: medium;
     text-align: right;
-    padding: .5rem;
+    padding: 0 .5rem .2rem 0;
     color: #e48454;
     position: absolute;
     bottom: 0;
     right: 0;
+    letter-spacing: 2px;
+    font-weight: 400;
 }
 
 #bottom-footer h4 {
     color:#e48454;
-    padding: 0 0 1% 1%;
+    padding: 0 0 .5% 1%;
     letter-spacing: 1.5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
 }
 
 #bottom-footer h4 a {
@@ -179,22 +184,15 @@ footer #bottom-footer h3 {
     text-decoration-color: #f0eae1;
 }
 
-#bottom-footer h3 {
-    letter-spacing: 2px;
-    font-weight: 400;
-}
-
 #footer-links ul{
     list-style-type: none;
     box-sizing: border-box;
-    padding: 0 0 0 5%;
     font-size: 2rem;
 }
 
 #footer-links li {
     display: inline-block;
     padding: 1.8rem 10%;
-    
 }
 
 #footer-links a {
@@ -739,6 +737,16 @@ textarea {
 #vets h2 {
     padding: 1rem;
     text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1000px) {
+
+    /* #footer-links li {
+        padding: 1.8rem 5% ;
+    } */
+
 }
 
 /* colors:
