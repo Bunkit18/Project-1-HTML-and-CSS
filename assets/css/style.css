@@ -763,7 +763,19 @@ textarea {
 
 /* Media Queries */
 
+@media screen and (max-width: 1400px) {
+
+    /* variation.html */
+
+    .container {
+        height: 23.5rem;
+    }
+    
+}
+
 @media screen and (max-width: 1000px) {
+
+    /* footer */
 
     #footer-links li {
         padding: 1.8rem 8% 0 10%; 
@@ -774,9 +786,17 @@ textarea {
         text-align: center;    
     }
 
+    /* variation.html */
+
+    .container {
+        height: 30rem;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
+
+    /* header */
 
     #logo {
         font-size: 3rem;
@@ -785,6 +805,12 @@ textarea {
     #nav-bar {
         height: 5rem;
         padding-top: 1rem;
+    }
+
+    /* variation.html */
+
+    .container {
+        height: 35rem;
     }
 
 }
@@ -805,6 +831,12 @@ textarea {
 
     #footer-links {
         font-size: 1.5rem;
+    }
+
+    /* variation.html */
+
+    .container {
+        height: 50rem;
     }
 
 }
