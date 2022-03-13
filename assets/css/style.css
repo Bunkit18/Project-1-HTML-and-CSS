@@ -746,7 +746,7 @@ textarea {
     margin: 2rem;
     padding: 4rem 0;
     border: 10px double rgba(228,132,84, .7);
-    font-size: 2rem;
+    font-size: 2rem;    
 }
 
 #thanks h2 {
@@ -758,6 +758,10 @@ textarea {
 
 #thanks i {
     color: #cb5920;
+}
+
+#thanks a {
+    font-size: smaller;
 }
 
 /* Media Queries */
