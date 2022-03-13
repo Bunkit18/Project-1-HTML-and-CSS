@@ -739,6 +739,27 @@ textarea {
     text-decoration: underline;
 }
 
+/* Thankyou.html styling */
+
+#thanks {
+    text-align: center;
+    margin: 2rem;
+    padding: 4rem 0;
+    border: 10px double rgba(228,132,84, .7);
+    font-size: 2rem;
+}
+
+#thanks h2 {
+    display: inline-block;
+    text-decoration: overline;
+    text-decoration-color: #cb5920;
+    border-bottom: 4px solid #cb5920;
+}
+
+#thanks i {
+    color: #cb5920;
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1000px) {
