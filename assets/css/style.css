@@ -59,9 +59,6 @@ body p {
     background: linear-gradient(#4d4959, #35323d 45% 60%, #4d4959);
     text-align: center;
     font-size: 110%;
-}
-
-#nav-bar ul {
     border-top: 1px solid black;
     border-bottom: 1px solid black;  
 }
@@ -86,7 +83,7 @@ body p {
 
 /* trial search bar */
 
-.search {
+  .search {
     position: relative;
   }
 
@@ -184,7 +181,7 @@ footer {
     text-decoration-color: #f0eae1;
 }
 
-#footer-links ul{
+#footer-links {
     list-style-type: none;
     box-sizing: border-box;
     font-size: 2rem;
@@ -288,8 +285,8 @@ footer {
     padding: 10px 5px 5px 0;
     background-color: rgba(228, 130, 84, 0.5);
     color: inherit;
-    top: 90%;
-    right: 8.5%;
+    bottom: 10%;
+    right: 5%;
     position: absolute;
 }
 
@@ -779,10 +776,56 @@ textarea {
 
 }
 
+@media screen and (max-width: 900px) {
+
+    #logo {
+        font-size: 3rem;
+    }
+
+    #nav-bar {
+        height: 5rem;
+        padding-top: 1rem;
+    }
+
+}
+
 @media screen and (max-width: 700px) {
+
+    /* Header */
 
     #footer-links li {
         padding: 1.8rem 5% 0 10%; 
+    }
+
+    #image-text {
+        width: 18rem;
+    }
+
+    /* footer */
+
+    #footer-links {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+   
+    /* Header */
+
+    #logo {
+        font-size: 1.7em;
+        height: 8rem;
+    }
+
+    #nav-bar {
+        height: 6rem;
+        line-height: 2rem;
+    }
+
+    #image-text {
+        font-size: 1.2rem;
+        width: 15rem;
     }
 
 }
