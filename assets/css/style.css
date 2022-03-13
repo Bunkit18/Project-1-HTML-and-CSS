@@ -458,12 +458,6 @@ footer {
     font-weight: 500;
 }
 
-#diet-list {
-    position: absolute;
-    top: 12.5rem;
-    letter-spacing: 1.5px;
-}
-
 #diet-list a {
     text-decoration: none;
     color: #f0eae1;
@@ -562,6 +556,10 @@ caption {
 
 /* Behaviour styling */
 
+#behaviour-text {
+    text-align: justify;
+}
+
 #behaviour-intro-bar {
     position: relative;
 }
@@ -594,10 +592,6 @@ caption {
     line-height: 150%;
     padding-top: 5px;
     font-weight: 500;
-}
-
-#behaviour-text {
-    text-align: justify;
 }
 
 #crest {
@@ -663,8 +657,8 @@ a:visited {
 
 #top-return {
     position: fixed;
-    bottom: 5%;
-    right: 5%;
+    bottom: 3rem;
+    right: 5rem;
 }
 
 #top-return a {
@@ -765,6 +759,16 @@ textarea {
     .container {
         height: 24rem;
     }
+
+    /* behaviour.html */
+
+    #behaviour-card img {
+        height: 20rem;
+    }
+
+    #behaviour-intro-outer {
+        height: 20rem;
+    }
     
 }
 
@@ -785,6 +789,13 @@ textarea {
 
     .container {
         height: 30rem;
+    }
+
+    /* behaviour.html */
+
+    .video {
+        display: block;
+        margin: 0 auto;
     }
 
 }
@@ -826,6 +837,16 @@ textarea {
         font-size: 1.2rem;
     }
 
+    /* behaviour.html */
+
+    #behaviour-card img {
+        height: 25rem;
+    }
+
+    #behaviour-intro-outer {
+        height: 25rem;
+    }
+
 }
 
 @media screen and (max-width: 700px) {
@@ -864,6 +885,10 @@ textarea {
         height: 50rem;
     }
 
+    #top-return {
+        right: 2rem;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -875,6 +900,25 @@ textarea {
     .container {
         height: 52rem;
     }
+
+    /* behaviour.html */
+
+    #behaviour-card img {
+        height: 30rem;
+    }
+
+    #behaviour-intro-outer {
+        height: 30rem;
+    }
+
+    #half-down img {
+        padding-left: .5rem;
+    }
+
+    #calls video, #quirks video {
+        width: 300px;
+    }
+
     
 }
 
@@ -917,6 +961,22 @@ textarea {
 
     .var-img-left, .var-img-right {
         height: 10rem;
+    }
+
+    /* footer */
+
+    #footer-links {
+        font-size: 1.3rem;
+    }
+
+    /* behaviour.html */
+
+    #behaviour-card img {
+        height: 35rem;
+    }
+
+    #behaviour-intro-outer {
+        height: 35rem;
     }
 
 }
