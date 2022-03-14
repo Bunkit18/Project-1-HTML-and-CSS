@@ -185,6 +185,7 @@ footer {
     list-style-type: none;
     box-sizing: border-box;
     font-size: 2rem;
+    padding-left: 3rem;
 }
 
 #footer-links li {
@@ -718,6 +719,7 @@ textarea {
 #vets {
     text-align: center;
     background-color: #2f2c38;    
+    padding-bottom: 1rem;
 }
 
 #vets h2 {
@@ -819,6 +821,13 @@ textarea {
         height: 35rem;
     }
 
+    /* vet.html iframe */
+
+    #vets iframe {
+        width: 600px;
+        height: 400px;
+    }
+
 }
 
 @media screen and (max-width: 800px) {
@@ -853,10 +862,6 @@ textarea {
 
     /* Header */
 
-    #footer-links li {
-        padding: 1.8rem 5% 0 10%; 
-    }
-
     #image-text {
         width: 18rem;
     }
@@ -864,7 +869,12 @@ textarea {
     /* footer */
 
     #footer-links {
+        padding-left: 2.5rem;
         font-size: 1.5rem;
+    }
+
+    #footer-links li {
+        padding: 1.8rem 5% 0 10%; 
     }
 
     /* variation.html */
@@ -889,9 +899,24 @@ textarea {
         right: 2rem;
     }
 
+    /* vet.html iframe */
+
+    #vets iframe {
+        width: 450px;
+        height: 400px;
+    }
+
 }
 
 @media screen and (max-width: 500px) {
+
+    /* footer */
+
+    #footer-links {
+        padding-left: 1rem;
+    }
+
+    /* variation.html */
 
     .var-img-left, .var-img-right {
         height: 12rem;
@@ -919,7 +944,12 @@ textarea {
         width: 300px;
     }
 
-    
+    /* vet.html iframe */
+
+    #vets iframe {
+        width: 300px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -927,7 +957,7 @@ textarea {
     /* Header */
 
     #logo {
-        font-size: 1.7em;
+        font-size: 1.8em;
         height: 8rem;
     }
 
@@ -967,6 +997,7 @@ textarea {
 
     #footer-links {
         font-size: 1.3rem;
+        padding-left: .2rem;
     }
 
     /* behaviour.html */
