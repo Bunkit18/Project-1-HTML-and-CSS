@@ -1034,6 +1034,12 @@ textarea {
         width: 80%;
     }
 
+    /* diet.html */
+
+    .img-size {
+        padding-left: 0;
+    }
+
     /* vet.html iframe */
 
     #vets iframe {
