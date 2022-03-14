@@ -802,7 +802,7 @@ textarea {
     }
 
     #pic img {
-        width: 58rem;
+        width: 52rem;
         height: auto;
     }
     
@@ -832,12 +832,26 @@ textarea {
     .video {
         display: block;
         margin: 0 auto;
+        padding: 0;
+    }
+
+    #img-size {
+        height: auto;
+    }
+    
+    section figure img {
+        width: 70%;
     }
 
     /* contact.html */
 
     #form-outer {
         width: 90%;
+    }
+
+    #pic img {
+        width: 45rem;
+        height: auto;
     }
 
 }
@@ -873,7 +887,11 @@ textarea {
      #form-outer {
         width: 85%;
     }
-    
+
+    #pic img {
+        width: 38rem;
+        height: auto;
+    }    
 
 }
 
@@ -946,6 +964,20 @@ textarea {
         right: 2rem;
     }
 
+    /* diet.html */
+
+    #diet-intro img {
+        height: 25rem;
+    }
+
+    #diet-intro-outer {
+        height: 25rem;
+    }
+
+    #c-bone img{
+        width: 80%;
+    }
+
     /* vet.html iframe */
 
     #vets iframe {
@@ -959,8 +991,9 @@ textarea {
         width: 80%;
     }
 
-    #form-inner textarea {
-        columns: 30;
+    #pic img {
+        width: 25rem;
+        height: auto;
     }
 
 }
@@ -998,7 +1031,7 @@ textarea {
     }
 
     #calls video, #quirks video {
-        width: 300px;
+        width: 80%;
     }
 
     /* vet.html iframe */
@@ -1012,6 +1045,11 @@ textarea {
 
      #form-outer {
         width: 70%;
+    }
+
+    #pic img {
+        width: 20rem;
+        height: auto;
     }
 }
 
