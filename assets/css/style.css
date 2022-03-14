@@ -226,7 +226,7 @@ footer {
     padding: 20px;
     background: #fff;
     border-radius: 5px;
-    width: 32%;
+    width: 35%;
     position: relative;
     transition: all 5s ease-in-out;
   }
@@ -274,6 +274,23 @@ footer {
     height: 45rem;
     object-fit: cover;
     vertical-align: middle;
+}
+
+#preferences, #details {
+    border: 1px solid #e48454;
+    padding: 0 0 1rem 1rem;
+}
+
+#preferences h4 {
+    padding-top: 1rem;
+}
+
+#submit {
+    margin-top: 1rem;
+}
+
+#submit:hover {
+    cursor: pointer;
 }
 
 /* Cover text */
