@@ -1124,8 +1124,8 @@ textarea {
 
 @media screen and (max-width: 325px) {
 
-    body {
-        overflow: hidden;
+    .scrollbar-hidden::-webkit-scrollbar {
+        display: none;
     }
 
     #nav-bar {
