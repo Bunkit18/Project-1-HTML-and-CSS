@@ -803,14 +803,24 @@ textarea {
     
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1050px) {
 
-    /* footer */
-
-    #bottom-footer h4 {
-        bottom: 1.2rem;    
-        text-align: center;    
+    #bottom-footer p:first-child {
+        bottom: 1.5rem;
+        left: 10%;
+        right: 10%;
+        text-align: center;
     }
+
+    #bottom-footer p:last-child {
+        left: 10%;
+        right: 10%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
 
     /* variation.html */
 
@@ -986,6 +996,12 @@ textarea {
 
 @media screen and (max-width: 500px) {
 
+    /* footer */
+
+    footer {
+        height: 11.7rem;
+    }
+
     /* variation.html */
 
     .var-img-left, .var-img-right {
@@ -1048,10 +1064,10 @@ textarea {
         height: 8rem;
     }
 
-    #nav-bar {
-        height: 7.6rem;
+    /* #nav-bar {
+        height: 6.5rem;
         line-height: 2rem;
-    }
+    } */
 
     #image-text {
         font-size: 1.2rem;
@@ -1062,6 +1078,14 @@ textarea {
 
     .popup {
         width: 70%;
+    }
+
+    footer {
+        height: 13rem;
+    }
+
+    #bottom-footer p:first-child {
+        bottom: 2.7rem;
     }
 
     /* variation.html */
@@ -1094,6 +1118,15 @@ textarea {
 
     #behaviour-intro-outer {
         height: 35rem;
+    }
+
+}
+
+@media screen and (max-width: 325px) {
+
+    #nav-bar {
+        height: 7.5rem;
+        line-height: 2rem;
     }
 
 }
