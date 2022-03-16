@@ -179,14 +179,13 @@ footer {
     list-style-type: none;
     box-sizing: border-box;
     font-size: 2rem;
-    padding-left: 3rem;
+    text-align: center;
+    padding-top: 1.8rem;
 }
 
 #footer-links li {
     display: inline-block;
     width: 24%;
-    padding: 1.8rem 0 0 0;
-    text-align: center;
 }
 
 #footer-links a {
@@ -808,10 +807,6 @@ textarea {
 
     /* footer */
 
-    #footer-links li {
-        padding: 1.8rem 8% 0 10%; 
-    }
-
     #bottom-footer h4 {
         bottom: 1.2rem;    
         text-align: center;    
@@ -928,14 +923,9 @@ textarea {
     }
 
     /* footer */
-
-    #footer-links {
-        padding-left: 2.5rem;
-        font-size: 1.5rem;
-    }
-
+    
     #footer-links li {
-        padding: 1.8rem 5% 0 10%; 
+        width: 23%;
     }
 
     /* variation.html */
@@ -995,12 +985,6 @@ textarea {
 }
 
 @media screen and (max-width: 500px) {
-
-    /* footer */
-
-    #footer-links {
-        padding-left: 1rem;
-    }
 
     /* variation.html */
 
@@ -1094,13 +1078,6 @@ textarea {
 
     .var-img-left, .var-img-right {
         height: 10rem;
-    }
-
-    /* footer */
-
-    #footer-links {
-        font-size: 1.3rem;
-        padding-left: .2rem;
     }
 
     /* behaviour.html */
