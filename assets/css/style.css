@@ -170,12 +170,7 @@ footer {
     left: 0;
 }
 
-#bottom-footer h4 a {
-    text-decoration-color: #e48454;
-    color:#e48454;
-}
-
-#bottom-footer h4 a:hover {
+#bottom-footer p:first-child a:hover {
     color:#f0eae1;
     text-decoration-color: #f0eae1;
 }
@@ -189,7 +184,9 @@ footer {
 
 #footer-links li {
     display: inline-block;
-    padding: 1.8rem 10%;
+    width: 24%;
+    padding: 1.8rem 0 0 0;
+    text-align: center;
 }
 
 #footer-links a {
