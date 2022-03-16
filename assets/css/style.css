@@ -10,7 +10,7 @@ body {
     background-color: #2f2c38;
     color: #f0eae1;
     font-family: "Roboto Condensed", sans serif;
-    max-width: 90%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ body p {
 
 #nav-bar li {
     display: inline-block;
-    margin: .1rem 3%;  
+    margin: .3% 3%;  
 }
 
 #nav-bar a {
@@ -150,22 +150,21 @@ footer {
     clear: both;
 }
 
-#bottom-footer h3 {
+#bottom-footer p {
     font-size: medium;
+    color:#e48454;
+    letter-spacing: 1.5px;
+    padding: .5% 1%;
+}
+
+#bottom-footer p:last-child {
     text-align: right;
-    padding: 0 .5rem .2rem 0;
-    color: #e48454;
     position: absolute;
     bottom: 0;
     right: 0;
-    letter-spacing: 2px;
-    font-weight: 400;
 }
 
-#bottom-footer h4 {
-    color:#e48454;
-    padding: 0 0 .5% 1%;
-    letter-spacing: 1.5px;
+#bottom-footer p:first-child { 
     position: absolute;
     bottom: 0;
     left: 0;
