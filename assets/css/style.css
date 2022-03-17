@@ -627,6 +627,12 @@ caption {
     padding-left: 2rem;
 }
 
+.diet-img-size {
+    max-width: 80%;
+    width: 40%;
+    height: auto;
+}
+
 /* call section */
 
 #calls {
@@ -667,7 +673,7 @@ video {
     font-size: 110%;
 }
 
-/* Visited anchor tag stlying */
+/* Visited anchor tag styling */
 
 a:visited {
     color:#cb5920;
