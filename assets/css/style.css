@@ -785,6 +785,28 @@ textarea {
 
 /* Media Queries */
 
+@media screen and (max-width: 1516px) {
+
+    /* contact */
+
+    #form-outer {
+        width: 80%;
+        padding: 1rem 0;
+        margin: 1rem 10%;
+    }
+
+    #pic {
+        float: none;
+        text-align: center;
+    }
+
+    #pic img {
+        width: 80%;
+        height: auto;
+    }
+
+}
+
 @media screen and (max-width: 1400px) {
 
     /* variation.html */
@@ -801,19 +823,6 @@ textarea {
 
     #behaviour-intro-outer {
         height: 20rem;
-    }
-
-    /* contact.html */
-
-    #form-outer {
-        width: 90%;
-        margin-left: 2.5rem;
-        margin-right: 2.5rem;
-    }
-
-    #pic img {
-        width: 52rem;
-        height: auto;
     }
     
 }
@@ -864,17 +873,6 @@ textarea {
         height: 20%;
     }
 
-    /* contact.html */
-
-    #form-outer {
-        width: 90%;
-    }
-
-    #pic img {
-        width: 45rem;
-        height: auto;
-    }
-
 }
 
 @media screen and (max-width: 900px) {
@@ -899,20 +897,9 @@ textarea {
     /* vet.html iframe */
 
     #vets iframe {
-        width: 600px;
-        height: 400px;
+        width: 80%;
+        height: 30rem;
     }
-
-     /* contact.html */
-
-     #form-outer {
-        width: 85%;
-    }
-
-    #pic img {
-        width: 38rem;
-        height: auto;
-    }    
 
 }
 
@@ -1015,24 +1002,6 @@ textarea {
         margin: 0 auto;
     }
 
-    /* vet.html iframe */
-
-    #vets iframe {
-        width: 450px;
-        height: 400px;
-    }
-
-     /* contact.html */
-
-     #form-outer {
-        width: 80%;
-    }
-
-    #pic img {
-        width: 25rem;
-        height: auto;
-    }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -1083,20 +1052,9 @@ textarea {
     /* vet.html iframe */
 
     #vets iframe {
-        width: 300px;
-        height: 400px;
+        height: 15rem;
     }
 
-    /* contact.html */
-
-     #form-outer {
-        width: 70%;
-    }
-
-    #pic img {
-        width: 20rem;
-        height: auto;
-    }
 }
 
 @media screen and (max-width: 400px) {
