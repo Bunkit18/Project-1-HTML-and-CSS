@@ -629,9 +629,10 @@ caption {
 
 .diet-img-size {
     max-width: 80%;
-    width: 40%;
-    height: auto;
+    height: 17rem;
 }
+
+
 
 /* call section */
 
@@ -1007,8 +1008,11 @@ textarea {
         height: 25rem;
     }
 
-    #c-bone img{
-        width: 80%;
+    .diet-img-size {
+        max-width: 80%;
+        height: auto;
+        padding: 1rem 0;
+        margin: 0 auto;
     }
 
     /* vet.html iframe */
@@ -1147,6 +1151,11 @@ textarea {
         height: 35rem;
     }
 
+    /* diet */
+
+    #nuts ul {
+        padding-left: 1.5rem;
+    }
 }
 
 @media screen and (max-width: 325px) {
