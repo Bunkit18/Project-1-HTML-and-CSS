@@ -512,6 +512,7 @@ figcaption {
 .img-size {
     height: 17rem;
     padding-left: 2rem;
+    max-width: 80%;
 }
 
 .contrast {
@@ -609,12 +610,21 @@ caption {
     margin: 1rem;
 }
 
+.pad-top {
+    padding-top: 1rem;
+}
+
 #up figcaption {
     text-align: center;
 }
 
 #half-down figcaption {
     text-align: center;
+}
+
+.img-size-landscape {
+    height: 17rem;
+    padding-left: 2rem;
 }
 
 /* call section */
@@ -828,18 +838,23 @@ textarea {
 
     /* behaviour.html */
 
+    video {
+        padding-left: 0;
+    }
+
+    video {
+        padding-bottom: 1rem;
+        padding-top: 1rem;
+    }
+
     .video {
         display: block;
         margin: 0 auto;
         padding: 0;
     }
 
-    #img-size {
-        height: auto;
-    }
-    
-    section figure img {
-        width: 70%;
+    video[controls] {
+        height: 20%;
     }
 
     /* contact.html */
@@ -1028,13 +1043,26 @@ textarea {
         height: 30rem;
     }
 
-    #half-down img {
-        padding-left: .5rem;
-    }
-
     #calls video, #quirks video {
         width: 80%;
     }
+
+    .img-size-landscape {
+        height: auto;
+        width: 80%;
+        text-align: center;
+        padding: 0;
+    }
+
+    figure {
+        display: block;
+    }
+
+    figure figcaption {
+        text-align: center;
+        padding: 0;
+    }
+    
 
     /* diet.html */
 
@@ -1092,11 +1120,11 @@ textarea {
     /* variation.html */
 
     #variation-card img {
-        height: 42rem;
+        height: 44rem;
     }
 
     #intro-outer {
-        height: 42rem;
+        height: 44rem;
     }
 
     #intro-text {
@@ -1120,6 +1148,22 @@ textarea {
     #nav-bar {
         height: 7.5rem;
         line-height: 2rem;
+    }
+
+    /* variation.html */
+
+    #variation-card img {
+        height: 48rem;
+    }
+
+    #intro-outer {
+        height: 48rem;
+    }
+
+    /* behaviour */
+
+    #img-size {
+        height: auto;
     }
 
 }
