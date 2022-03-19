@@ -75,6 +75,23 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
 
 * ## Imagery
 
+    My hero image is an image of a standard grey cockatiel, the most common colour variation as detailed in my site. The image was sourced from [pixabay](https://pixabay.com/), where a lot of TielBible images were sourced from. It was the ideal image for my hero image to present the site topic most clearly and in the most emotionally impacting and stiking way.
+
+    Other images in TielBible have been influenced or sourced by the following websites:
+
+    *[Corbyn the Cockatiel](https://www.facebook.com/CorbynTheCockatiel)
+
+    *[Pexels.com](https://www.pexels.com/)
+
+    *[unsplash.com](https://unsplash.com/)
+
+    *[freeimages.com](https://www.freeimages.com/)
+
+    *[rawpixel.com](https://www.rawpixel.com/)
+
+    
+    
+
 
 
 
