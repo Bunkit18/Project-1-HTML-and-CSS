@@ -17,6 +17,9 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
         * [**Typography**](<#typography>)
         * [**Imagery**](<#imagery>)
         * [**Wireframes**](<#wireframes>)
+    * [**Features**](<#features>)
+    * [**Technologies Used**](<#technologies-used>)
+
 
 # User Experience (UX)
 
@@ -98,23 +101,58 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
 
 * ## Wireframes
 
-    TielBible was created with ease of navigation in mind. A navigation bar is included in the header for all pages, with clear titles of the context of the information provided in each page. Each page, if required, has clearly defined links to each sub-section. Pages are designed to be simple and have an overarching structure through pages to ensure the site is easy to use and navigate.
-    
-    All pages are responsive for other viewports, such as tablets and mobiles. The structure of the page doesn't differ in different viewports.
-
     Initial Wireframes were produced in [Balsamiq](https://balsamiq.com/)
 
-    [Home page wireframe](assets/images/wireframe/frame%20%23%20redo.png)
+    Home page wireframe:
 
-    [Home page with modal box](assets/images/wireframe/frame%20%23redo.png)
+    ![Home page wireframe](assets/images/wireframe/frame%20%23%20redo.png)
 
-    [Page contents structure](assets/images/wireframe/frame%204.png)
+    Home page with modal box:
 
-    [Vets locations maps page](assets/images/wireframe/frame%205.png)
+    ![Home page with modal box](assets/images/wireframe/frame%20%23redo.png)
 
-    [Contact page](assets/images/wireframe/frame%206.png)
+    Page Contents Structure wireframe:
+
+    ![Page contents structure](assets/images/wireframe/frame%204.png)
+
+    Vets Locations embedded map page:
+
+    ![Vets locations maps page](assets/images/wireframe/frame%205.png)
+
+    Contact page and form wireframe:
+
+    ![Contact page](assets/images/wireframe/frame%206.png)
+
+    There may be differentation in the final site due to responsiveness.
 
     [Return to top](<#table-of-contents>)
+
+# Features
+
+TielBible was created with ease of navigation in mind. A navigation bar is included in the header for all pages, with clear titles of the context of the information provided in each page. Each page, if required, has clearly defined links to each sub-section. Pages are designed to be simple and have an overarching structure through pages to ensure the site is easy to use and navigate.
+    
+All pages are responsive for other viewports, such as tablets and mobiles. The structure of the page doesn't differ in different viewports.
+
+* ## 
+
+# Technologies Used 
+
+Languages used in this project:
+
+* HTML5
+* CSS3
+
+Frameworks, Libraries and Programs used:
+
+* [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - responsive media queries.
+* [Hover.css](https://ianlunn.github.io/Hover/) - for :hover instances for links.
+* [Balsamiq](https://balsamiq.com/) - wireframes
+* [Google Fonts](https://fonts.google.com/) - fonts
+* [Font Awesome](https://fontawesome.com/) - Icons
+* [Github](https://github.com/) - repository storage
+* [Gitpod](https://gitpod.io/) - compiler and Git code storage.
+
+
 
 
 
