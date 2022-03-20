@@ -146,10 +146,10 @@ Frameworks, Libraries and Programs used:
 
 * [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - responsive media queries.
 * [Hover.css](https://ianlunn.github.io/Hover/) - for :hover instances for links.
-* [Balsamiq](https://balsamiq.com/) - wireframes
-* [Google Fonts](https://fonts.google.com/) - fonts
-* [Font Awesome](https://fontawesome.com/) - Icons
-* [Github](https://github.com/) - repository storage
+* [Balsamiq](https://balsamiq.com/) - wireframes.
+* [Google Fonts](https://fonts.google.com/) - Fonts.
+* [Font Awesome](https://fontawesome.com/) - Icons.
+* [Github](https://github.com/) - repository storage.
 * [Gitpod](https://gitpod.io/) - compiler and Git code storage.
 
 
