@@ -11,11 +11,12 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
 # Table of Contents
 
 * [**User Experience (UX)**](<#user-experience-ux>)
-    * [**Site Structure**](<#structure>)
     * [**Design**](<#design>)
+        * [**Site Structure**](<#site-structure>)
         * [**Colour Scheme**](<#colour-scheme>)
         * [**Typography**](<#typography>)
         * [**Imagery**](<#imagery>)
+        * [**Wireframes**](<#wireframes>)
 
 # User Experience (UX)
 
@@ -35,15 +36,15 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
 
 [Return to top](<#table-of-contents>)
 
+# Design
+
 * ## Site Structure 
 
     TielBible is comprised of seven pages, with [Home](index.html) being the default loading page. The pages are as follows: [Variation](variation.html), [Behaviour](behaviour.html), [Diet](diet.html), [Vet Locations](vet.html) and [Contact](contact.html).
 
     There is a pop-up form in the footer of every page which, alongside the form in the contact page, will lead to the [Thank You](thankyou.html) page. Longer pages have a fixed 'return-to-the-top' button on the right-handside for ease of access to the header and navigation bar. 
 
-[Return to top](<#table-of-contents>)
-
-# Design
+    [Return to top](<#table-of-contents>)
 
 * ## Colour Scheme
 
@@ -73,13 +74,17 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
     
     Both used sans serif as a fallback font in the event that either chosen font doesn't load.  
 
+    [Return to top](<#table-of-contents>)
+
 * ## Imagery
 
     My hero image is an image of a standard grey cockatiel, the most common colour variation as detailed in my site. The image was sourced from [pixabay](https://pixabay.com/), where a lot of TielBible images were sourced from. It was the ideal image for my hero image to present the site topic most clearly and in the most emotionally impacting and stiking way.
 
     Other images in TielBible have been influenced or sourced by the following websites:
 
-    *[Corbyn the Cockatiel](https://www.facebook.com/CorbynTheCockatiel)
+    *[Corbyn the Cockatiel Page](https://www.facebook.com/CorbynTheCockatiel)
+
+    *[Google.com](https://www.google.com)
 
     *[Pexels.com](https://www.pexels.com/)
 
@@ -88,6 +93,30 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
     *[freeimages.com](https://www.freeimages.com/)
 
     *[rawpixel.com](https://www.rawpixel.com/)
+
+    [Return to top](<#table-of-contents>)
+
+* ## Wireframes
+
+    TielBible was created with ease of navigation in mind. A navigation bar is included in the header for all pages, with clear titles of the context of the information provided in each page. Each page, if required, has clearly defined links to each sub-section. Pages are designed to be simple and have an overarching structure through pages to ensure the site is easy to use and navigate.
+    
+    All pages are responsive for other viewports, such as tablets and mobiles. The structure of the page doesn't differ in different viewports.
+
+    Initial Wireframes were produced in [Balsamiq](https://balsamiq.com/)
+
+    [Home page wireframe](assets/images/wireframe/frame%20%23%20redo.png)
+
+    [Home page with modal box](assets/images/wireframe/frame%20%23redo.png)
+
+    [Page contents structure](assets/images/wireframe/frame%204.png)
+
+    [Vets locations maps page](assets/images/wireframe/frame%205.png)
+
+    [Contact page](assets/images/wireframe/frame%206.png)
+
+    [Return to top](<#table-of-contents>)
+
+
 
     
     
