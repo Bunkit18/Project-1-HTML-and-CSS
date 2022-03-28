@@ -18,7 +18,14 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
         * [**Imagery**](<#imagery>)
         * [**Wireframes**](<#wireframes>)
     * [**Features**](<#features>)
+        * [**WC3 Validator**](<#validation>)
+        * [**User Experience Testing**](<#user-stories>)
+        * [**Past or Current existing bugs**](<#bugs>)
     * [**Technologies Used**](<#technologies-used>)
+    * [**Testing**](<#testing>)
+    * [**Deployment**](<#deployment>)
+    * [**Credits**](<#credits>)
+    * [**Acknowledgements**](<#acknowledgements>)
 
 
 # User Experience (UX)
