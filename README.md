@@ -19,6 +19,7 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
         * [**Wireframes**](<#wireframes>)
     * [**Features**](<#features>)
         * [**Current Features**](<#current-features>)
+        * [**Future Features**](<#future-features>)
     * [**Technologies Used**](<#technologies-used>)
     * [**Testing**](<#testing>)
         * [**WC3 Validator**](<#validation>)
@@ -141,7 +142,76 @@ TielBible was created with ease of navigation in mind. A navigation bar is inclu
     
 All pages are responsive for other viewports, such as tablets and mobiles. The structure of the page doesn't differ in different viewports.
 
-* ## 
+[Return to top](<#table-of-contents>)
+
+* ## Current Features
+
+    ### Navigation Bar 
+
+    * Situated at the top of all TielBible pages, the user can easily access and navigate to all pages of the site.
+
+    * The active page alerts the user which page they are currently on and hovering over the navigation elements underlines each section.
+
+    * The circular search bar is operational and opens out using CSS animation. 
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172004.png)
+
+    ### Footer links
+
+    * Social media links are presented via their known logos and change colour on hover. Clicking on the links takes the user to the external website in a new window. 
+
+    * Clicking on the link to subscribe to the mailing list initiates a popup overlay box form, which allows the user to enter their details and submit their preferences. The submit button takes the user to the thankyou.html page which thanks them for their submission and offers redirection to the main page. 
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172040.png)
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172109.png)
+
+    ### Page Title cards
+
+    * Pages of large or diverse content all include a title informational cards that briefly summarise what would be covered and learned in that page, along with navigational links to major sub-headings. 
+
+    * The design is kept consistent across all cards and links change colour upon mouse hover. 
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172143.png)
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172213.png)
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172229.png)
+
+    ### Video Controls
+
+    * Supplementary videos when provided all have controls so users can pause or replay as required.
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172357.png)
+
+    ### Specialised Embedded Google Map
+
+    * A specialised self-created map of the UK with verified exotic and avian treating veterinarians has been created and embedded solely for the use of users of TielBible. The map can be zoomed in on and details about the veterinary service can be accessed through clicking on the location.
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172248.png)
+
+    ### Contact Form for all Occasions
+
+    * The contact form can be filled in and submitted by users for a variety of different reasons and have the ability to customise their preferences for contact (e.g. phone) 
+
+    * A cute picture of a cockatiel (Owned by Corbyn the Cockatiel) resides nearby the form for aesthetic presentation.
+
+    ![Title and Nav bar](assets/images/Features-imgs/Screenshot%202022-03-28%20172311.png)
+
+
+[Return to top](<#table-of-contents>)
+
+* ## Future Features
+
+This section contains ideas for potential upgrades to the site in the near future.
+
+* A page dedicated to health and injury / sickness concerns that may be commonly or rarely known, for users to better understand the potential concerns they have for their tiels.
+
+* A forum discussion where likeminded tiel owners can come together and discuss a variety of topics, including bt not limited to: chop recipes, DIY toy making or wholesome introduction pages for their feathered friends.
+
+* A breeder / pet store review and rating system for stores, pet hotels and breeders in the UK, to improve solidarity between users, prevent scams and keep all Tiels safe.
+
+[Return to top](<#table-of-contents>)
 
 # Technologies Used 
 
@@ -160,13 +230,28 @@ Frameworks, Libraries and Programs used:
 * [Github](https://github.com/) - repository storage.
 * [Gitpod](https://gitpod.io/) - compiler and Git code storage.
 
+[Return to top](<#table-of-contents>)
+
 # Testing 
 
 Testing was involved in every stage of the creation of TielBible's creation, in an ongoing process with Google's Developer Tools, as well as WC3's validation services for HTML markup and CSS. 
 
-All pages of TielBible have been validated by these services, which ensure that the syntax for the site is clear and error-free.
+Upon finalisation of TielBible, the site passed its responsiveness tests though Chromes developer tools responsiveness checker.
 
-![Validation](assets/images/validation.png)
+- The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+- The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+- A large amount of testing was done to ensure that all pages were linking correctly.
+- Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. It was also peer code reviewed by other students at Code Institute.
+
+[Return to top](<#table-of-contents>)
+
+* ## WC3 Validator
+
+    All pages of TielBible have been validated by these services, which ensure that the syntax for the site is clear and error-free.
+
+    ![Validation](assets/images/validation.png)
+
+    [Return to top](<#table-of-contents>)
 
 * ## User Experience Testing
 
@@ -236,6 +321,36 @@ All pages of TielBible have been validated by these services, which ensure that 
 * As a user, I want to be able to connect with fellow users of TielBible through social media.
 
     1. Links for Facebook, Twitter, Instagram and Reddit are included in the footer of every page on the TielBible site, which immediately redirects them to their link of choice. They can then interact with other users or interested parties regarding cockatiels as required.
+
+[Return to top](<#table-of-contents>)
+
+* ## Past or Currently Existing Bugs / Issues
+
+    * ### Currently known bugs (CURRENT)
+
+        None.
+
+    * ### Past existing bugs (PAST)
+
+        **Issue #1**
+
+        - Issue with responsiveness of the site using chrome dev tools. 
+        
+        Status: **FIXED**
+
+        Solution: Changes to CSS code units from px to % / rem where possible which auto-corrects own responsiveness to viewport width of device viewing the site. 
+
+        **Issue #2**
+
+        - Issue with the submit button of the forms for mailing list and contact page. Deviated to an error page.
+
+        Status: **FIXED**
+
+        Solution: Removed '#' action and replaced with local 'thankyou.html' page. Removed POST method. 
+
+        [Return to top](<#table-of-contents>)
+
+
 
 
 
