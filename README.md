@@ -22,12 +22,11 @@ From tiel owner to tiel owner, welcome to <a href="https://bunkit18.github.io/Ti
         * [**Future Features**](<#future-features>)
     * [**Technologies Used**](<#technologies-used>)
     * [**Testing**](<#testing>)
-        * [**WC3 Validator**](<#validation>)
-        * [**User Experience Testing**](<#user-stories>)
-        * [**Past or Current existing bugs**](<#bugs>)
+        * [**W3C Validation**](<#w3c-validation>)
+        * [**User Experience Testing**](<#user-experience-testing>)
+        * [**Known Bugs or Issues**](<#known-bugs-or-issues>)
     * [**Deployment**](<#deployment>)
     * [**Credits**](<#credits>)
-        * [**Acknowledgements**](<#acknowledgements>)
 
 
 # User Experience (UX)
@@ -245,7 +244,7 @@ Upon finalisation of TielBible, the site passed its responsiveness tests though 
 
 [Return to top](<#table-of-contents>)
 
-* ## WC3 Validator
+* ## W3C Validation
 
     All pages of TielBible have been validated by these services, which ensure that the syntax for the site is clear and error-free.
 
@@ -324,7 +323,7 @@ Upon finalisation of TielBible, the site passed its responsiveness tests though 
 
 [Return to top](<#table-of-contents>)
 
-* ## Past or Currently Existing Bugs / Issues
+* ## Known Bugs or Issues
 
     * ### Currently known bugs (CURRENT)
 
@@ -349,6 +348,61 @@ Upon finalisation of TielBible, the site passed its responsiveness tests though 
         Solution: Removed '#' action and replaced with local 'thankyou.html' page. Removed POST method. 
 
         [Return to top](<#table-of-contents>)
+
+## Deployment
+
+* ### GitHub Pages
+
+    The TieBible project was deployed to GitHub Pages using the following steps:
+
+    1. Log in to GitHub and locate the GitHub Repository
+    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. The page will automatically refresh.
+    6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+<br>
+    
+* ### Forking the GitHub Repository
+
+    By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
+    1. Log in to GitHub and locate the GitHub Repository
+    2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+    3. You should now have a copy of the original repository in your GitHub account.
+
+<br>
+    
+* ### Making a Local Clone
+
+    1. Log in to GitHub and locate the GitHub Repository
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type git clone, and then paste the URL you copied in Step 3.
+    
+            $ git clone https://github.com/bunkit18/TielBible-Project-1-HTML-and-CSS/
+
+    7. Press Enter. Your local clone will be created.
+
+            $ git clone https://github.com/bunkit18/TielBible-Project-1-HTML-and-CSS/
+
+            > Cloning into `CI-Clone`...
+            > remote: Counting objects: 10, done.
+            > remote: Compressing objects: 100% (8/8), done.
+            > remove: Total 10 (delta 1), reused 10 (delta 1)
+            > Unpacking objects: 100% (10/10), done.
+
+    
+    Click [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+[Return to top](<#table-of-contents>)
+
+## Credits
+
+[Return to top](<#table-of-contents>)
 
 
 
