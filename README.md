@@ -402,6 +402,18 @@ Upon finalisation of TielBible, the site passed its responsiveness tests though 
 
 ## Credits
 
+Credits for all imagery used in TielBible are in the [Imagery](<#imagery>) section.
+
+Further credits are due to:
+
+* [Stack Overflow](https://stackoverflow.com/) and [W3Schools](https://www.w3schools.com/) for constant reference and assistance on html and css code posibilities.
+
+* Fellow Code Institute peers on the Slack channel, who peer reviewed my code and provided feedback on how to better my project.
+
+* Users and creators of [YouTube](www.youtube.com), of which informational videos I have used in the making of my project (which have been credited in the live deployment beneath each video)
+
+* Any other user of the internet or website from which evaluating their source code and processes aided me in creating and fleshing out my own. 
+
 [Return to top](<#table-of-contents>)
 
 
